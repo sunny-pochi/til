@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>HTML_CSS_JS_03 Modal</title>
+</head>
+<body>
+  
+  <div class="container">
+    <div class="demo">DEMO</div>
+
+    <p>ボタンを押すとモーダルウィンドウが開きます</p>
+
+    
+<!-- ボタンをdiv で設定 -->
+<div id="open-but">開く</div>
+
+<!-- モーダル開いた時のグレーマスク 最初はhidden -->
+<div id="mask" class="hidden"></div>
+
+<!-- モーダル部分  最初はhidden -->
+<section id="modal" class="hidden">
+  <p>Vue.js Modal Window!</p>
+  <input id="character" type="text" name="example">
+  <!-- ボタンをdiv で設定 -->
+  <div id="send-but">送信</div>
+</section>
+
+
+
+</div>
+  
+
+
+<script src="js/main.js"></script>
+
+</body>
+</html>

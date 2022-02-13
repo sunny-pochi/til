@@ -1,0 +1,103 @@
+
+.container {
+  width: 500px;
+  margin: 50px auto;
+
+  border: 2px solid rgb(197, 197, 197);
+
+  padding: 50px 90px;
+  padding-left: 40px;
+
+  position: relative;
+}
+
+.demo {
+  width: 70px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  color: white;
+  background-color: rgb(197, 197, 197);
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  
+}
+
+#open-but {
+  font-size: 14px;
+  width: 70px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  color: white;
+  background-color: #b42e42;
+  border-radius: 2px;
+  position: absolute;
+  top: 110px;
+  left: 40px;
+
+  cursor: pointer;
+  
+}
+
+/* （モーダルOPEN時の）背景色のマスク設定 */
+#mask {
+  background: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+
+}
+
+/* モーダル設定 */
+#modal {
+  background-color: white;
+  width: 200px;
+  height: 120px;
+  padding: 20px;
+  border-radius: 4px;
+  position: absolute;
+  top: -10px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  /* 落ちてくるアニメーション */
+  transition: transform 0.8s;
+
+}
+#character {
+  height: 25px;
+  width: 140px;
+  border: 1px solid rgb(190, 190, 190);
+  border-radius: 2px;
+}
+
+/* 送信ボタン */
+#send-but {
+  font-size: 14px;
+  width: 70px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  color: white;
+  background-color: #b42e42;
+  border-radius: 2px;
+  position: relative;
+  top: 15px;
+  left: 135px;
+
+  cursor: pointer;
+}
+
+/* マスク隠し */
+#mask.hidden {
+  display: none;
+}
+
+/* モーダル部分をbody外に設定 */
+#modal.hidden {
+  transform: translate(0, -500px);
+}
