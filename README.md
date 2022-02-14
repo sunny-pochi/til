@@ -1,3 +1,3 @@
 # til
 
-ターミナルを使用して gitHub に慣れるためにやってます
+This repository is to make me familiar to gitHub! lol
