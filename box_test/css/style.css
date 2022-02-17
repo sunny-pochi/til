@@ -1,0 +1,153 @@
+@charset "utf-8";
+
+.spacer {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+body {
+  font-family: Verdana, 'Arial Black', メイリオ, sans-serif;
+}
+
+.box1 {
+  background-color: orange;
+}
+.box2 {
+  background-color: skyblue;
+  margin-bottom: 30px;
+}
+.box3 {
+  background-color: red;
+  width: 100px;
+  height: 50px;
+  display: inline;
+  font-size: 12px;
+}
+.box4 {
+  background-color: red;
+  width: 100px;
+  height: 50px;
+  display: inline;
+  font-size: 24px;
+}
+.box5 {
+  background-color: red;
+  width: 200px;
+  height: 20px;
+  display: block;
+  font-size: 8px;
+}
+
+/* ここからサンプル */
+.wrapper {
+border: 1px solid rgb(87, 145, 145);
+background-color: rgb(146, 148, 148);
+height: 55px;
+width: 200px;
+}
+.catch-word {
+color: white;
+font-size: 12px;
+display: inline;
+padding-left: 5px;
+padding-right: 5px;
+
+}
+.catch-logo {
+  color: white;
+  font-size: 24px;
+  display: inline;
+  padding-left: 10px;
+}
+.catch-memo {
+  color: white;
+  font-size: 8px;
+  display: block;
+  text-align: left;
+  padding-left: 5px;
+}
+/* ここまでサンプル */
+.box11 {
+  background-color: orange;
+  width: 100px;
+  height: 100px;
+}
+.box12 {
+  background-color: skyblue;
+  width: 100px;
+  height: 100px;
+  position: relative;
+  top: 30px;
+  left: 30px;
+}
+.box13 {
+  background-color: tomato;
+  width: 100px;
+  height: 100px;
+  position: fixed;
+  top: 30px;
+  left: 30px;
+}
+.box14 {
+  background-color: rgb(25, 73, 75);
+  width: 100px;
+  height: 100px;
+}
+.box15 {
+  background-color: rgb(209, 57, 151);
+  width: 100px;
+  height: 100px;
+}
+.box16 {
+  background-color: rgb(166, 233, 41);
+  width: 100px;
+  height: 100px;
+}
+.box17 {
+  background-color: rgb(49, 156, 218);
+  width: 100px;
+  height: 100px;
+  border: 5px solid red;
+}
+.box18 {
+  background-color: rgb(189, 56, 122);
+  width: 100px;
+  height: 100px;
+}
+.box19 {
+  box-sizing: border-box;
+  background-color: rgb(49, 156, 218);
+  width: 100px;
+  height: 100px;
+  border: 5px solid red;
+}
+
+.box20 {
+  background-color: orange;
+  /* width: 100px; */
+  width: calc((100% - 40px) / 3);
+  height: 100px;
+  margin-bottom: 20px;
+  box-shadow: 10px 5px rgba(0,0,0,0.3);
+  text-shadow: 10px 5px rgba(0,0,0,0.3);
+}
+.box21 {
+  background-color: skyblue;
+  /* width: 100px; */
+  width: calc((100% - 40px) / 3);
+  height: 100px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  box-shadow: 10px 5px 3px rgba(0,0,0,0.3);
+  text-shadow: 10px 5px 3px rgba(0,0,0,0.3);
+}
+.box22 {
+  background-color: tomato;
+  /* width: 100px; */
+  width: calc((100% - 40px) / 3);
+  height: 100px;
+  margin-left: auto;
+  margin-bottom: 20px;
+  box-shadow: 10px 5px 3px rgba(0,0,0,0.3);
+}
+
