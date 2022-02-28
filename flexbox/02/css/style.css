@@ -1,0 +1,46 @@
+@charset "utf-8";
+
+html {
+ height: 100%;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  /* 縦方向に並べたい */
+  flex-direction: column;
+  /* ブラウザ高さいっぱいになるように(htmlにもheight設定) */
+  height: 100%;
+}
+
+header {
+  background: pink
+}
+
+main {
+  background: skyblue;
+  /* ブラウザの幅からaside 100pxをマイナスして余った分で伸縮 */
+  flex: 1;
+}
+
+nav {
+  background: tomato;
+  width: 100px;
+  /* 左に持っていきたい　場所の移動 */
+  order: -1;
+}
+
+aside {
+  background: orange;
+  width: 100px;
+}
+
+footer {
+  background: silver;
+}
+
+.container {
+  display: flex;
+  /* 縦方向に伸びて欲しいのでflex 1にしておく */
+  flex: 1;
+}
