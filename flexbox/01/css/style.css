@@ -4,6 +4,15 @@
 
 body {
   margin: 0;
-  
 }
 
+header {
+  height: 200px;
+  background: silver;
+}
+
+div {
+  width: 100px;
+  height: 40px;
+  background: skyblue;
+}
