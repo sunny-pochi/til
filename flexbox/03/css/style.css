@@ -1,0 +1,62 @@
+
+/* 共通 */
+/* 最小サイズ */
+body {
+  margin: 0;
+}
+
+aside {
+  display: none;
+}
+
+.image {
+  background: pink;
+  height: 100px;
+}
+
+.text {
+  background: silver;
+  height: 100px;
+}
+
+
+
+/* 3つのパターンでブレークポイントを設定 */
+/* ただし下記の最小はデフォルトにしておいて、あとから記載したものを
+上書き対応とする */
+/* モバイルファースト */
+
+/* 最小サイズ */
+/* @media (min-width: 0px) and (max-width: 599px) {
+} */
+
+/* 共通のスタイル以外で上書きしたいスタイルを下記でサイズごとに指定 */
+/* 中サイズ */
+@media (min-width: 600px)  {
+ section {
+   display: flex;
+ }
+
+ .image {
+   width: 200px;
+ }
+
+ .text {
+   flex: 1;
+ }
+}
+
+/* 最大サイズ */
+@media (min-width: 800px) {
+  section {
+    width: 800px;
+    margin: 0 auto;
+  }
+
+  aside {
+    display: block;
+    background: plum;
+    width: 160px;
+  }
+}
+
