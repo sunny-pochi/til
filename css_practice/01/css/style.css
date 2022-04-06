@@ -1,0 +1,44 @@
+body {
+  margin: 0;
+}
+
+
+/* 共通設定 文字サイズと行ボックス */
+h1 {
+  font-size: 24px;
+  line-height: 1.4;
+
+  margin: 10px;
+}
+
+p {
+  font-size: 16px;
+  line-height: 1.6;
+  width: calc(100% - 20px) ;
+  margin: 10px;
+}
+
+/* 個別設定 */
+.ttl-1 {
+  background-color: #DADADA;
+  border-left: solid 8px blue ;
+  padding: 8px;
+}
+
+.ttl-2 {
+  background-color: #DADADA;
+  border-radius: 8px; /* 半径が8pxの角丸 */
+  padding: 8px;
+}
+
+.ttl-3 {
+  border-top: solid 2px black;
+  border-bottom: solid 2px black;
+  padding: 8px 0;
+}
+
+.ttl-4 {
+  border-top: double 5px black;
+  border-bottom: double 5px black;
+  padding: 8px 0;
+}
